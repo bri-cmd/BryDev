@@ -1,0 +1,317 @@
+/* --------------------------------
+   Global Styles (Applied to all pages)
+-------------------------------- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6fa;
+    color: #333;
+}
+
+.footer {
+    font-size: 0.9rem;
+    color: #777;
+    text-align: left;
+    margin-top: 30px;
+}
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="submit"] {
+    width: 15%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.return-button {
+    position: absolute;
+    top: 20px;
+    padding: 10px;
+    left: 480px;
+    font-size: 59px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.return-button:hover {
+    color: #0056b3;
+}
+
+/* --------------------------------
+   Page 2: The Use of Variables
+-------------------------------- */
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 0 0 48%;
+}
+
+.output {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.output h2, .output h3 {
+    color: #333;
+}
+
+/* --------------------------------
+   Page 3: Manipulating Numbers - Grades Calculation
+-------------------------------- */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.output p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Optional reset for number input arrows */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+/* --------------------------------
+   Page 4: Using Math Functions
+-------------------------------- */
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.column h3 {
+    color: #007bff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Styling for the Math Functions Output */
+.output {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.output h2 {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.output p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* --------------------------------
+   Page 9: Single-dimensional Array
+-------------------------------- */
+
+h1, h2 {
+    color: #007bff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the Task Description */
+.Instruction {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* Background for Main Container */
+.background {
+    background-color: #f4f4f9;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* --------------------------------
+   Page 10: Two-dimensional Array
+-------------------------------- */
+
+h1, h2 {
+    color: #007bff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* Styling for Task Description */
+.Instruction {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0 auto 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+/* Matrix Table Styling */
+table {
+    width: 80%; /* Reduced width for centered alignment */
+    border-collapse: collapse;
+    margin: 0 auto 20px auto; /* Center the table and add spacing */
+    font-size: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px; /* Increased padding for better spacing */
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* Background for Main Container */
+.background {
+    background-color: #f4f4f9;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
